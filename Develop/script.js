@@ -10,4 +10,3 @@
 // type text start empty
 // on click button saves event
 // date will change per day
-

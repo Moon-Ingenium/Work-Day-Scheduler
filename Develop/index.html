@@ -28,58 +28,68 @@
   </header>
   <div class="container">
     <!-- Timeblocks go here -->
-    <div class="row">
-      <div class="col-med-3" class="hour">9 AM</div>
-      <div class="col-med-6" class="text-area">Activity</div>
-      <div class="col-med-3" class="saveBtn"><button>Save</button></div>
-    </div>
-    <div class="row">
-      <div class="col-med-3" class="hour">10 AM</div>
-    <div class="col-med-6" class="text-area">Activity</div>
-    <div class="col-med-3" class="saveBtn"><button>Save</button></div>
-    </div>
-    <div class="row">
-      <div class="col-med-3" class="hour">11 AM</div>
-      <div class="col-med-6" class="text-area">Activity</div>
-      <div class="col-med-3" class="saveBtn"><button>Save</button></div>
-    </div>
-    <div class="row">
-        <div class="col-med-3" class="hour">12PM</div>
-      <div class="col-med-6" class="text-area">Activity</div>
-      <div class="col-med-3" class="saveBtn"><button>Save</button></div>
-  </div>
-    <div class="row">
-      <div class="col-med-3" class="hour">1PM</div>
-      <div class="col-med-6" class="text-area">Activity</div>
-      <div class="col-med-3" class="saveBtn"><button>Save</button></div>
-    </div>
-    <div class="row">
-      <div class="col-med-3" class="hour">2PM</div>
-      <div class="col-med-6" class="text-area">Activity</div>
-      <div class="col-med-3" class="saveBtn"><button>Save</button></div>
-    </div>
-    <div class="row">
-      <div class="col-med-3" class="hour">3PM</div>
-      <div class="col-med-6" class="text-area">Activity</div>
-      <div class="col-med-3" class="saveBtn"><button>Save</button></div>
-    </div>
-    <div class="row">
-      <div class="col-med-3" class="hour">4PM</div>
-      <div class="col-med-6" class="text-area">Activity</div>
-      <div class="col-med-3" class="saveBtn"><button>Save</button></div>
-    </div>
-    <div class="row">
-      <div class="col-med-3" class="hour">5PM</div>
-      <div class="col-med-6" class="text-area">Activity</div>
-      <div class="col-med-3" class="saveBtn"><button>Save</button></div>
-    </div>
-  </div>
+    <div class="card">
+      <div class="card-body">
 
-  </div>
+        <form action="/action_page.php">
+          <label >9AM
 
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-  <script src="script.js"></script>
+          </label>
+          <textarea id="nine-event" name="text-nine" rows="4" cols="50"></textarea>
+          <button class="saveBtn">Save</button></form>
+
+        <form action="/action_page.php">
+          <label>10AM</label>
+          <textarea id="ten-event" name="text-ten" rows="4" cols="50">
+         </textarea> <button class="saveBtn">Save</button></form>
+
+        <form action="/action_page.php">
+          <label>11AM</label>
+          <textarea id="eleven-event" name="text-eleven" rows="4" cols="50">
+        </textarea>
+          <button class="saveBtn">Save</button></form>
+
+        <form action="/action_page.php">
+          <label>12PM</label>
+          <textarea id="twelve-event" name="text-twelve" rows="4" cols="50">
+        </textarea>
+
+          <button class="saveBtn">Save</button></form>
+
+        <form action="/action_page.php">
+          <label>1PM</label>
+          <textarea id="one-event" name="text-one" rows="4" cols="50">
+  </textarea><button class="saveBtn">Save</button></form>
+
+        <form action="/action_page.php">
+          <label>2PM</label>
+          <textarea id="two-event" name="text-two" rows="4" cols="50">
+         </textarea><button class="saveBtn">Save</button>
+        </form>
+
+        <form action="/action_page.php">
+          <label>3PM</label>
+          <textarea id="three-event" name="text-three" rows="4" cols="50">
+        </textarea><button class="saveBtn">Save</button>
+        </form>
+
+        <form action="/action_page.php">
+          <label>4PM</label>
+          <textarea id="four-event" name="text-four" rows="4" cols="50">
+        </textarea>
+          <button class="saveBtn">Save</button></form>
+
+        <form action="/action_page.php">
+          <label>5PM</label>
+          <textarea id="five-event" name="text-five" rows="4" cols="50">
+        </textarea><button class="saveBtn">Save</button></form>
+      </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
