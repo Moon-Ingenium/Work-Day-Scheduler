@@ -1,28 +1,44 @@
 
-// 1. method to display time in header
-var date ="";
-var timeOfDayEl ="";
-var textInputEl = "";
-var bttn ="";
+
+var timeOfDayEl = $(".row");
+var textInputEl = $(".description");
+ var bttn = $(".saveBtn");
+
+var date = $("#currentDay");
+
+date.text(moment().format('dddd, MMM Do'));
+
+// keep track of past, present, and future time
+function color(){
+     var displayColor = moment();
+
+ if (moment()){
+    timeOfDayEl.style("background-color", "red");
+  }
+
+else if(){
+    timeOfDayEl.style("background-color", "yellow");
+}
+
+else{
+        timeOfDayEl.style("background-color", "gray");
+};
+
+// write text and click button to save into local storage
 
 
+// on click button saves event
+// bttn.on("click", function(event){
 
-
-
-
-
-
-
-bttn.on("click", function(event){
-// local storage info
-});
+// var eventText = localStorage.setItem("text", )
+// });
 
 
 
 
 
 // how do the elements change?
-// time- color changes when its past present or future
-// type text start empty
-// on click button saves event
-// date will change per day
+
+
+
+
